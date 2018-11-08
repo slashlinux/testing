@@ -16,3 +16,4 @@ list="email_address@domain.com email_address@domain.com"
 cat data_output | mailx -s "$(echo -e "Title name \nContent-Type: text/html")" -r email_address@domain.com $list
 #petrisor_Test
 #Another Petrisor
+#Another Petrisor 229
