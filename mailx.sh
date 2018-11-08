@@ -14,3 +14,4 @@ output=$(/export/home/$HOME/bin/sshpass -p $SFTPPASSWORD sftp $SFTPUSERNAME@$SFT
 !);
 list="email_address@domain.com email_address@domain.com"
 cat data_output | mailx -s "$(echo -e "Title name \nContent-Type: text/html")" -r email_address@domain.com $list
+#petrisor_Test
